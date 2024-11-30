@@ -1,0 +1,53 @@
+# Для Android Studio проекта
+*.iml
+.gradle/
+.idea/
+build/
+*.apk
+*.ap_
+*.dex
+*.class
+*.log
+*.swp
+*.cxx/
+captures/
+.externalNativeBuild/
+
+# Локальные настройки Android Studio
+/local.properties
+
+# Firebase
+google-services.json
+
+# Кэширование системы
+*.DS_Store
+*.vscode/
+Thumbs.db
+*.log
+
+# Для Django проекта
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+*.log
+
+# Виртуальное окружение Python
+venv/
+.env
+
+# Firebase Admin ключи
+serviceAccountKey.json
+
+# Node.js зависимости (если есть фронтенд с npm)
+node_modules/
+package-lock.json
+
+# IDE/Редакторы
+.vscode/
+*.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Linux/OS-specific
+*~
